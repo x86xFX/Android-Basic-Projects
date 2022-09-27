@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LayoutBasics and Constraint Layout</string>
+    <string name="login">Login</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Toast and Context</string>
+    <string name="this_is_custom_toast">This is custom Toast</string>
+    <string name="make_toast">Make Toast</string>
+</resources>

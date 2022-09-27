@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Intent and Activities</string>
+    <string name="hello_from_second_view">Hello from Second View</string>
+    <string name="go_back">Go Back</string>
+    <string name="hello_from_first_view">Hello from First View</string>
+    <string name="go_to_second_view">Go to Second View</string>
+    <string name="hello_from_third_view">Hello from Third View</string>
+    <string name="go_to_third_view">Go To Third View</string>
+</resources>

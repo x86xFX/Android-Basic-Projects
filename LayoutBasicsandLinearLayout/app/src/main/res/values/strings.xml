@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LayoutBasics and Linear Layout</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="birth_day">Birth Day</string>
+    <string name="apply">Apply</string>
+    <string name="country_code">Country Code</string>
+</resources>

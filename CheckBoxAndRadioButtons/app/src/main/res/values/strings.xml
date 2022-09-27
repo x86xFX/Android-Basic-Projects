@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CheckBox And RadioButtons</string>
+    <string name="what_belongs_on_your_burger">What belongs on your burger?</string>
+    <string name="beef">Beef</string>
+    <string name="chicken">Chicken</string>
+    <string name="pork">Pork</string>
+    <string name="order">Order</string>
+    <string name="you_ordered_burger_with">You ordered burger with:</string>
+    <string name="cheese">Cheese</string>
+    <string name="onion">Onion</string>
+    <string name="salad">Salad</string>
+</resources>
