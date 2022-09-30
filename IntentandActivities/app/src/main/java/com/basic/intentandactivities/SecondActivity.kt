@@ -13,7 +13,7 @@ class SecondActivity: AppCompatActivity() {
         setContentView(R.layout.second_layout)
 
         goBackBtn = findViewById(R.id.backBtn)
-
+        
         goBackBtn.setOnClickListener {
             Intent(this, ThirdActivity::class.java).also {
                 startActivity(it)
