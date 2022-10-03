@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ImageSlider</string>
+    <string name="view_next_page">View Next Page</string>
+    <string name="first_image">First Image</string>
+    <string name="load_first_image">Load First Image</string>
+    <string name="load_second_image">Load Second Image</string>
+    <string name="second_image">Second Image</string>
+    <string name="third_image">Third Image</string>
+    <string name="load_third_image">Load Third Image</string>
+    <string name="back_to_second_page">Back To Second Page</string>
+    <string name="go_back_to_first_page">Go Back To First Page</string>
+</resources>

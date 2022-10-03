@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <ImageView
+        android:id="@+id/thirdImageViewer"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/third_image" />
+
+    <Button
+        android:id="@+id/loadThirdImageBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/load_third_image"
+        app:layout_constraintEnd_toEndOf="@+id/thirdImageViewer"
+        app:layout_constraintStart_toStartOf="@+id/thirdImageViewer"
+        app:layout_constraintTop_toBottomOf="@+id/thirdImageViewer" />
+
+    <Button
+        android:id="@+id/backToSecondBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_second_page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/loadThirdImageBtn"
+        app:layout_constraintStart_toStartOf="@+id/loadThirdImageBtn"
+        app:layout_constraintTop_toBottomOf="@+id/loadThirdImageBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
