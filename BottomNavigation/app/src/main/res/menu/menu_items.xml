@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/miHome"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/miMusic"
+        android:title="@string/music"
+        android:icon="@drawable/ic_music" />
+
+    <item
+        android:id="@+id/miVideo"
+        android:title="@string/video"
+        android:icon="@drawable/ic_video" />
+
+    <item
+        android:id="@+id/miProfile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_profile" />
+
+    <item
+        android:id="@+id/miSettings"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings" />
+</menu>
