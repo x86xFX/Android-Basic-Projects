@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="car_name">Car Name</string>
+    <string name="add_to_list">Add to list</string>
+    <string name="manufacture_date">Manufacture Date</string>
+    <string name="vehicle_model">Vehicle Model</string>
+    <string name="add_vehicle">Add Vehicle</string>
+</resources>
