@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.basic.viewpager2.app-mergeDebugResources-28:/layout/activity_main.xml",
+        "source": "com.basic.viewpager2.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.basic.viewpager2.app-mergeDebugResources-28:/layout/item_view_pager.xml",
+        "source": "com.basic.viewpager2.app-main-31:/layout/item_view_pager.xml"
+    }
+]
