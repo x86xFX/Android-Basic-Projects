@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.basic.tablayout"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\theek\.gradle\caches\transforms-3\9baae2a0a064870b9506522ab355f7bf\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.basic.tablayout.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\theek\.gradle\caches\transforms-3\9baae2a0a064870b9506522ab355f7bf\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\theek\.gradle\caches\transforms-3\9baae2a0a064870b9506522ab355f7bf\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.basic.tablayout.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\theek\.gradle\caches\transforms-3\9baae2a0a064870b9506522ab355f7bf\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\theek\.gradle\caches\transforms-3\9baae2a0a064870b9506522ab355f7bf\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:5:5-28:19
+18        android:allowBackup="true"
+18-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\theek\.gradle\caches\transforms-3\9baae2a0a064870b9506522ab355f7bf\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:8:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:9:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:10:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:11:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:12:9-35
+27        android:theme="@style/Theme.TabLayout" >
+27-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:13:9-47
+28        <activity
+28-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:15:9-27:20
+29            android:name="com.basic.tablayout.MainActivity"
+29-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:16:13-41
+30            android:exported="true" >
+30-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:17:13-36
+31            <intent-filter>
+31-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:18:13-22:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:19:17-69
+32-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:19:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:21:17-77
+34-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:21:27-74
+35            </intent-filter>
+36
+37            <meta-data
+37-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:24:13-26:36
+38                android:name="android.app.lib_name"
+38-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:25:17-52
+39                android:value="" />
+39-->C:\Users\theek\Documents\AndroidProjects\Basics\TabLayout\app\src\main\AndroidManifest.xml:26:17-33
+40        </activity>
+41
+42        <provider
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\theek\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\theek\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+44            android:authorities="com.basic.tablayout.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\theek\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\theek\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\theek\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\theek\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\theek\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\theek\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\theek\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\theek\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+52        </provider>
+53    </application>
+54
+55</manifest>
