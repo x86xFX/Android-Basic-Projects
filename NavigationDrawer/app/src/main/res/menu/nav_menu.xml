@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miGroup"
+        android:title="@string/new_group"
+        android:icon="@drawable/ic_group"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/miLocation"
+        android:title="@string/location"
+        android:icon="@drawable/ic_location"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/miContact"
+        android:title="@string/contacts"
+        android:icon="@drawable/ic_contact"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/miCall"
+        android:title="@string/calls"
+        android:icon="@drawable/ic_call"
+        app:showAsAction="ifRoom"/>
+</menu>

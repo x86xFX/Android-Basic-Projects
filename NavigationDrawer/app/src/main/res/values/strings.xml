@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Navigation Drawer</string>
     <string name="activity">Activity</string>
+    <string name="theekshana_nirmana">Theekshana Nirmana</string>
+    <string name="_94_771_519_753">+94 777 539 153</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="new_group">New Group</string>
+    <string name="calls">Calls</string>
+    <string name="contacts">Contacts</string>
+    <string name="channel">Channel</string>
+    <string name="location">Location</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>
